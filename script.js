@@ -4,9 +4,9 @@ $(function(){
 
 
     function changeSlide(){
-    carouselList.animate({marginLeft:-400}, 500, FirstSlide);
+    	carouselList.animate({marginLeft:-400}, 500, FirstSlide);
     }
-    function FirstSlide(){
+    function firstSlide(){
       var firstItem = carouselList.find("li:first"); 
       var lastItem = carouselList.find("li:last");
       lastItem.after(firstItem);
